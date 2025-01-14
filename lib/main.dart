@@ -17,7 +17,7 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
   runApp(RecipeApp());
-}
+}//
 
 GoRouter router = GoRouter(
   initialLocation: '/categories',
